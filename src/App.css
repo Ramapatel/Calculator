@@ -1,0 +1,28 @@
+.calculator {
+  border: 2px solid #ccc;
+  padding: 10px;
+  max-width: 150px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+}
+.Value {
+  width: 140px;
+  height: 140px;
+  text-align: end;
+  background-color: rgb(20, 20, 74);
+  color: white;
+  font-size: 20px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+.buttons button {
+  font-size: 20px;
+}
